@@ -7,8 +7,6 @@ defmodule Main do
       player=String.trim(input)
       rps=["rock","paper","scissors"]
       pc=Enum.take_random(rps, 1)
-      pcounter=0
-      pccounter=0
       IO.puts"Computer: #{pc}"
       IO.puts "Player: #{player}"
       cond do
